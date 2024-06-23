@@ -49,12 +49,19 @@
 8011A734:checkTreasureRupeeReturn
 8011EA30:procGanonFinishInit
 8011EAB0:procGanonFinish
+800c782c:procCoMetamorphoseInit
+800d8f74:procDamageInit
+80136138:procWolfDamageInit
 
 // data
 80388C0C:ladderVars
 
 // d_menu_collect.o
 801B3300:setWalletMaxNum
+
+// d_meter2_draw.o
+802154c4:setAlphaLifeAnimeMin
+80215524:setAlphaLifeAnimeMax
 
 // JKRHeap.o
 802d1134:__nw_JKRHeap
@@ -84,6 +91,12 @@
 // 8033DD94:L2GlobalInvalidate
 // 8033DE2C:DMAErrorHandler
 // 8033DF8C:__OSCacheInit
+
+// os.o
+800000F8:__OSBusClock
+
+// OSTime.o
+80344b98:OSGetTime
 
 // runtime.o
 803645A4:_savefpr_14
@@ -156,3 +169,48 @@
 803a6700:item_resource
 803a7ee8:field_item_res
 803a8ed8:item_info
+
+800c2ddc:commonProcInitNotSameProc
+8038809c:crouchVars
+800b2604:itemTriggerCheck
+800ac488:getMainBckData
+800dd050:setShieldGuard
+800bfa28:setItemActor
+801fa690:dMw_DOWN_TRIGGER
+800c6714:procDiveJumpInit
+800c76c8:procCrouchInit
+800b26c0:spActionTrigger
+800b26f0:swordSwingTrigger
+800dce28:checkUpperGuardAnime
+80389d28:m_anmDataTable
+801413b8:offNoResetFlg2
+80141168:onNoResetFlg2
+8015ea94:checkBombItem
+800cf2bc:checkHorseRide
+80268f14:cXyzAdd
+80268fb4:cXyzMultiply
+800b8968:checkReadyItem
+80141450:ChkGroundHit
+80019d98:fopAcM_create
+80019e04:fopAcM_fastCreate
+800c5ea0:procAutoJumpInit
+800e5bec:setGrabItemActor
+8002e83c:dComIfGp_addSelectItemNum
+803876e4:something
+800e3df4:setGrabUpperAnime
+800f94ac:procCrawlMoveInit
+800baf40:checkNextActionFromCrouch
+80019c7c:fopAcM_delete
+80023578:fpcSch_JudgeForPName
+800197f8:fopAcIt_Judge
+80140084:setClothesChange
+8002eeb0:setSelectEquipClothes
+800ad044:setSingleAnime
+80033ec8:isFirstBit
+8044b4a8:mAudioMgrPtr
+802addc4:z2SeMgr_seStart
+80218d94:setAlphaButtonMapAnimeMax
+8001b068:fopAcM_orderTalkEvent
+801018c8:checkZoraWearMaskDraw
+800d9714:procCoLargeDamageInit
+8021ab38:changeTextureItemB
